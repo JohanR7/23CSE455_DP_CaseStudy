@@ -6,10 +6,10 @@
 
 | Roll number | Name | Batch |
 |---|---|---|
-| AM.SC.U4AIE23038 | Johan Rajesh | AIE |
-| AM.SC.U4AIE23003 | Aadarsh Jayan Nair | AIE |
-| AM.SC.U4AIE23029 | Dano Aby Alex | AIE |
-| AM.SC.U4AIE23140 | P Arya | AIE |
+| AM.SC.U4AIE23038 | Johan Rajesh | AIE - A |
+| AM.SC.U4AIE23003 | Aadarsh Jayan Nair | AIE - A |
+| AM.SC.U4AIE23029 | Dano Aby Alex | AIE - A |
+| AM.SC.U4AIE23140 | P Arya | AIE - B |
 
 The report is `B10_Report.pdf` (LaTeX source `B10_Report.tex`); the slides are `Part3/llm/B10_slide.pdf`.
 
@@ -101,8 +101,8 @@ Each CSV exists once. All CSV paths are relative to this team folder.
 
 **LLM folders.** Every part has the same `llm/` layout: the members' prompts (`partN_prompt_<name>.txt`),
 `input.txt` (files supplied), `output.txt` (raw model output) and `run_info.txt` (model, date, environment).
-Each member ran each part with their own prompt and the results were combined into one team result; the
-recorded runs in `llm/` were made with the `_Johan` prompts, and `llm.csv` points to those.
+Each member ran each part with their own prompt and the results were compared and combined into one team
+result; each part's `llm.csv` records the evaluation of that result.
 
 ## Inspected modules
 
